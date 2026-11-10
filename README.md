@@ -1,13 +1,10 @@
 Tecnologias e recursos
 
-HTML5, CSS3 e Javascript para estruturar e estilizar a página.
+HTML5, CSS3 e para estruturar e estilizar a página.
 
-JavaScript para implementar interações, troca de musica e varias funções e
+JavaScript para implementar as interações dos botões, armazenar no navegador o Local Storage a informção do botão like.
 
-Incorporação de vídeos do YouTube.
-
-Links externos para plataformas de streaming e coleções de produtos.
+Projeto responsivo e interativo.
 
 Objetivo
-
-Criar um espaço para compartilhar indicações de doramas e facilitar o acesso a conteúdos relacionados.
+Escutar suas musicas como no spotify ou play music do celular.
