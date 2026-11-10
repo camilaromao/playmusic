@@ -8,3 +8,6 @@ Projeto responsivo, amigavel e interativo.
 
 Objetivo
 Escutar suas musicas como no spotify ou play music do celular.
+
+Mais um projeto do meu estudo continuo!
+
