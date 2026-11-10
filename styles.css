@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(34, 35, 35);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#cover { 
+    border-radius: 20px;
+    width: 450px;
+}
+
+#title-playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2em 0 2em 0;
+    color: aliceblue;
+}
+
+#below-cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em 2em 2em 1em;
+    align-items: center;
+    gap: 7em;
+    font-size: smaller;
+}
+
+#name-music {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+#name-band {
+    font-size: 0.8em;
+    font-weight: 100;
+    color: #e1e0e0;
+}
+
+#progress-bar {
+    display: block;
+    border-radius: 2em;
+    width: 28em;
+    height: 5px;
+    background-color: rgb(167, 167, 167);
+}
+
+#progress-container {
+    cursor: pointer;
+}
+
+#current-progress {
+    --progress: 0%;
+    background-color: rgb(234, 233, 233);
+    height: inherit;
+    border-radius: inherit;
+    width: var(--progress);
+}
+
+#time-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(165, 165, 165);
+    align-items: center;
+    margin: 0.5em;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.5em;
+    color: aliceblue;
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    color: aliceblue;
+}
+
+.button {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.button-navigate {
+    font-size: 4em;
+}
+
+.button-biggest {
+    font-size: 6em;
+}
+
+.button-active {
+    color: rgb(75, 173, 48);
+}
